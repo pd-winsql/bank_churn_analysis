@@ -49,7 +49,7 @@ FROM bank_churn
 WHERE Balance = 0;
  
  
- --
+ -- Rate of customers exiting based on their income
 SELECT
 	CASE
 		WHEN EstimatedSalary BETWEEN 10 AND 50000 THEN 'Low Income (10-50000)'
